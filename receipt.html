@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripter.js"></script>
+    <title>Receipt</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Thank you for you order!</h1>
+        <p>Please enter your delivery information below.</p>
+      </div>
+
+      <div class="col-md-6">
+        <div id="dataDude">
+          <form>
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input id="firstName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input id="lastName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="streetAddy">Street Address</label>
+              <input id="streetAddy" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="city">City</label>
+              <input id="city" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="zipCode">Zip Code</label>
+              <input id="zipCode" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="state">State</label>
+              <select class="form-control" id="state">
+          			<option id="AK">Alaska</option>
+          			<option id="AL">Alabama</option>
+          			<option id="AR">Arkansas</option>
+          			<option id="AZ">Arizona</option>
+          			<option id="CA">California</option>
+          			<option id="CO">Colorado</option>
+          			<option id="CT">Connecticut</option>
+          			<option id="DC">District of Columbia</option>
+          			<option id="DE">Delaware</option>
+          			<option id="FL">Florida</option>
+          			<option id="GA">Georgia</option>
+          			<option id="HI">Hawaii</option>
+          			<option id="IA">Iowa</option>
+          			<option id="ID">Idaho</option>
+          			<option id="IL">Illinois</option>
+          			<option id="IN">Indiana</option>
+          			<option id="KS">Kansas</option>
+          			<option id="KY">Kentucky</option>
+          			<option id="LA">Louisiana</option>
+          			<option id="MA">Massachusetts</option>
+          			<option id="MD">Maryland</option>
+          			<option id="ME">Maine</option>
+          			<option id="MI">Michigan</option>
+          			<option id="MN">Minnesota</option>
+          			<option id="MO">Missouri</option>
+          			<option id="MS">Mississippi</option>
+          			<option id="MT">Montana</option>
+          			<option id="NC">North Carolina</option>
+          			<option id="ND">North Dakota</option>
+          			<option id="NE">Nebraska</option>
+          			<option id="NH">New Hampshire</option>
+          			<option id="NJ">New Jersey</option>
+          			<option id="NM">New Mexico</option>
+          			<option id="NV">Nevada</option>
+          			<option id="NY">New York</option>
+          			<option id="OH">Ohio</option>
+          			<option id="OK">Oklahoma</option>
+          			<option id="OR">Oregon</option>
+          			<option id="PA">Pennsylvania</option>
+          			<option id="PR">Puerto Rico</option>
+          			<option id="RI">Rhode Island</option>
+          			<option id="SC">South Carolina</option>
+          			<option id="SD">South Dakota</option>
+          			<option id="TN">Tennessee</option>
+          			<option id="TX">Texas</option>
+          			<option id="UT">Utah</option>
+          			<option id="VA">Virginia</option>
+          			<option id="VT">Vermont</option>
+          			<option id="WA">Washington</option>
+          			<option id="WI">Wisconsin</option>
+          			<option id="WV">West Virginia</option>
+          			<option id="WY">Wyoming</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-success">Press for receipt</button>
+          </form>
+        </div>
+
+        <div id="finalReceipt">
+          <h1>Thanks for shopping with us</h1>
+          <p>We value your patronage <span class="firstName"></span> <span class="lastName"></span>.</p>
+          <p>We will be sending your goods to <span class="streetAddy"></span>, <span class="city"></span>, <span class="state">, <span class="zipCode"></span></p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

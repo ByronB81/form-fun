@@ -1,0 +1,25 @@
+body {
+  background-color: yellow;
+}
+
+.jumbotron {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#Story {
+  display: none;
+}
+
+#letter {
+  display: none;
+}
+
+#yell {
+  display: none;
+}
+
+#finalReceipt {
+  color: red;
+  display: none;
+}
